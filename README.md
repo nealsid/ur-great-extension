@@ -16,7 +16,7 @@ Then,
 
 `$ npx webpack --mode development`
 
-[Use the instructions to load an unpacked extension (it probably won't work out of the box, it's meant to be replaced with an actual working extension)](https://guides.github.com/features/mastering-markdown/)
+[Use the instructions to load an unpacked extension (it probably won't work out of the box, it's meant to be replaced with an actual working extension)](https://developer.chrome.com/extensions/getstarted)
 
 It is cobbled together from many helpful resources on the web:
 
