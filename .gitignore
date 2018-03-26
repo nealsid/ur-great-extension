@@ -1,0 +1,5 @@
+extension/bundle.js
+node_modules
+*~
+extension/images
+.DS_Store

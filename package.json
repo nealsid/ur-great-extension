@@ -1,0 +1,41 @@
+{
+  "name": "urgreatextension",
+  "version": "0.5.0",
+  "description": "ur great extension",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development",
+    "lint": "./lint.sh"
+  },
+  "pre-commit": {
+    "run": [
+      "lint"
+    ],
+    "silent": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nealsid/urgreatextension.git"
+  },
+  "author": "U",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nealsid/urgreatextension/issues"
+  },
+  "homepage": "https://github.com/nealsid/urgreatextension#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.0",
+    "eslint-config-google": "^0.9.1",
+    "file-loader": "^1.1.11",
+    "jquery": "^3.3.1",
+    "jquery-ui": "^1.12.1",
+    "mustache": "^2.3.0",
+    "pre-commit": "^1.2.2",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-jquery-ui": "^1.0.0"
+  }
+}
